@@ -5,9 +5,9 @@ import pickle
 from sklearn.datasets import load_wine
 
 
-model_scaler= pickle.load(open('models\wine_scaler.pkl','rb'))
-model_lr= pickle.load(open('models\wine_log_reg.pkl','rb'))
-model_dt= pickle.load(open('models\wine_dtc.pkl','rb'))
+model_scaler= pickle.load(open('models/wine_scaler.pkl','rb'))
+model_lr= pickle.load(open('models/wine_log_reg.pkl','rb'))
+model_dt= pickle.load(open('models/wine_dtc.pkl','rb'))
 
 #load wine dataset
 wine = load_wine()
